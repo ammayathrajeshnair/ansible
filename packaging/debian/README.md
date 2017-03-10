@@ -25,7 +25,7 @@ docker run --privileged -e DEB_DIST='trusty' -v $(pwd):/ansible ansible-deb-buil
 
 The debian package file will be placed in the `deb-build` directory. This can then be added to an APT repository or installed with `dpkg -i <package-file>`.
 
-Note that `dpkg -i` does not resolve dependencies.
+Note that `dpkg -i` does not resolve dependencies
 
 To install the Ansible DEB package and resolve dependencies:
 
