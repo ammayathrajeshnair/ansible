@@ -1,5 +1,3 @@
-# (c) 2014, Toshio Kuratomi <tkuratomi@ansible.com>
-#
 # This file is part of Ansible
 #
 # Ansible is free software: you can redistribute it and/or modify
