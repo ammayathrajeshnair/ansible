@@ -2,7 +2,7 @@
 *.py[co]
 # package building stuff
 build
-# Emacs backup files...
+# Emacs backup files....
 *~
 .\#*
 .doctrees
