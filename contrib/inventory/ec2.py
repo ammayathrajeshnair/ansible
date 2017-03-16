@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-'''
+''
 EC2 external inventory script
 =================================
 
