@@ -3,7 +3,7 @@
 # (c) 2014, Matt Martz <matt@sivel.net>
 # (c) 2016, Justin Mayer <https://justinmayer.com/>
 #
-# This file is part of Ansible.
+# This file is part of Ansible
 #
 # Ansible is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
