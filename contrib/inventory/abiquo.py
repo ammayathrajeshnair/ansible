@@ -1,46 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-'''
-External inventory script for Abiquo
-====================================
-
-Shamelessly copied from an existing inventory script.
-
-This script generates an inventory that Ansible can understand by making API requests to Abiquo API
-Requires some python libraries, ensure to have them installed when using this script.
-
-This script has been tested in Abiquo 3.0 but it may work also for Abiquo 2.6.
-
-Before using this script you may want to modify abiquo.ini config file.
-
-This script generates an Ansible hosts file with these host groups:
-
-ABQ_xxx: Defines a hosts itself by Abiquo VM name label
-all: Contains all hosts defined in Abiquo user's enterprise
-virtualdatecenter: Creates a host group for each virtualdatacenter containing all hosts defined on it
-virtualappliance: Creates a host group for each virtualappliance containing all hosts defined on it
-imagetemplate: Creates a host group for each image template containing all hosts using it
-
-'''
-
-# (c) 2014, Daniel Beneyto <daniel.beneyto@abiquo.com>
-#
-# This file is part of Ansible,
-#
-# Ansible is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# Ansible is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with Ansible.  If not, see <http://www.gnu.org/licenses/>.
-
 import os
 import sys
 import time
